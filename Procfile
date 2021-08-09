@@ -1,0 +1,1 @@
+worker:nodemon src/server.js

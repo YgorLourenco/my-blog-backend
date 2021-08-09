@@ -72,4 +72,4 @@ app.post('/api/articles/:name/add-comments', (req, res) => {
 // app.post('/hello', (req, res) => res.send(`Hello ${req.body.name}`))
 // app.get('/hello/:name', (req, res) => res.send(`Hello ${req.params.name}`))
 
-app.listen(8000, () => console.log('Servidor ligado na porta 8000'))
+app.listen(process.env.PORT || 8000, () => console.log('Servidor ligado na porta 8000'))
